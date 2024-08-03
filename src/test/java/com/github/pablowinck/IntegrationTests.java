@@ -18,7 +18,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @ExtendWith(SpringExtension.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class})
-class PocUrlshortenerApplicationTests {
+class IntegrationTests {
 
     @Autowired
     private TestRestTemplate restTemplate;
